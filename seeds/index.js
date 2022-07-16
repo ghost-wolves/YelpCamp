@@ -25,6 +25,10 @@ const seedDB = async () => {
       image: 'https://source.unsplash.com/collection/483251',
       description: 'A spicy place!',
       price,
+      geometry: {
+        type: "Point",
+        coordinates: [-113.1331, 47.0202]
+        },
       images: [
         {
             url: 'https://res.cloudinary.com/cherrycoke/image/upload/v1657845652/YelpCamp/cwixxjvzqxfrukq0selx.jpg',
